@@ -1,0 +1,92 @@
+*{margin:0px;padding:0px;}
+
+.image{opacity:0.7;filter:alpha(opacity=10);}
+
+.image:hover{opacity:1.0;filter:alpha(opacity=100);} 			
+
+body{background-color:gray;background-image:url("back3.jpg");background-repeat:repeat-x;
+		overflow-x:hidden;
+		 /*opacity of back < chck working or not*/}
+		 
+		 
+
+#container{margin:4px auto;max-width:96%;}
+
+#header{}
+
+											/*nav coding*/
+
+#nav{background-color:#000;display:block;width:100%;}
+
+#nav ul{list-style-type:none;}
+
+#nav ul li {display:inline;padding:5px;}
+
+#nav ul li a{border-right:1px solid white;border-radius:5px;display:inline-block;text-decoration:none;padding:10px 22px;color:white;font-family:Tahoma;font-size:20px;}
+
+#nav ul li a:hover{color:#e64805;}			
+
+#nav:after{content="";display:block;clear:both;}
+
+
+								/* drop down coding */
+								
+.dropdown{position:relative;display:inline-block;}
+
+.ddcontent{position:absolute;display:none;}
+
+.dropdown:hover .ddcontent {display:block;}
+
+.ddlist{list-style-type:none;background-color:#000;}
+
+.ddlist li {display:block;}
+
+.ddlist li a {display:block;border-top:1px solid white;text-decoration:none;color:white;font-family:Tahoma;font-size:20px;width:130px;}					
+
+.ddlist li a:hover{color:orange;}
+
+
+					
+				
+				
+									/*section coding*/
+				
+				
+				
+#section{margin-top:380px;}				
+				
+#sectioncontainer {width:100%;height:600px;}	
+
+#sectioncontainer1{width:100%;height:230px;margin-left:120px;}
+#sectioncontainer2{width:100%;height:230px;margin-left:120px;}
+
+#box1{float:left;}
+#box2{float:left;}
+#box3{float:left;}
+#box4{float:left;clear:both;}
+#box5{float:left;}
+#box6{float:left;}
+
+
+.boxplaylist {border-radius:18px;height:170px;width:300px;background-color:rgba(153,38,0,0.9);
+				margin:23px;color:white;font-size:25px;font-weight:bold;}			
+					
+.boxplaylist:hover {opacity:0.9;font-size:30px;color:black;}  
+
+#section:after{content="";display:block;clear:both;}  /*not wrkng chck*/
+
+											/*footer coding*/
+
+
+					
+#footer{height:300px;width:100%;background-color:#232729;color:white;}
+
+		
+#contactusfooter{float:left;width:30%;margin:20px 50px;}
+
+#usefullinks{float:left;width:30%;margin:20px 50px;}			
+
+.parafoot{border-bottom: 2px dashed #e64805;font-weight:bolder;font-size:25px;color:#e64805;}
+
+#copyright{clear:both;position:relative;left:900px;top:25px;}
+					
